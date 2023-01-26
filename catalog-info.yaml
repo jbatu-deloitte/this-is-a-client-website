@@ -9,4 +9,6 @@ spec:
   lifecycle: dev
   dependsOn:
     - component:default/common-library
+  consumesApis:
+    - component:default/saml-application
   owner: jairenz
