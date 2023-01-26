@@ -5,6 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: jbatu-deloitte/this-is-a-client-website
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: dev
+  dependsOn:
+    - component:default/common-library
   owner: jairenz
