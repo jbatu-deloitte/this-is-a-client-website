@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: this-is-a-client-website
+  annotations:
+    github.com/project-slug: jbatu-deloitte/this-is-a-client-website
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jairenz
